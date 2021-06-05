@@ -9,3 +9,13 @@ Algoritmo Suma
 	Escribir "La suma de los números es:", resultado
 FinAlgoritmo
 
+2. Realice un algoritmo que solicite dos datos: país y capital. Y luego muestre la capital del país. El
+cartel debe ser como lo indica el siguiente ejemplo: “Katmandú es la capital de Nepal”.
+
+Algoritmo Capital_País
+	Escribir "Ingrese el país:"
+	Leer pais
+	Escribir "Ingrese la capital del país:"
+	Leer capital
+	Escribir capital, "es la capital de ", pais
+FinAlgoritmo
