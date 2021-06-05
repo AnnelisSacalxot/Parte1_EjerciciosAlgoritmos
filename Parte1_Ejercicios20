@@ -19,3 +19,14 @@ Algoritmo Capital_País
 	Leer capital
 	Escribir capital, "es la capital de ", pais
 FinAlgoritmo
+
+3. Crear un algoritmo que muestre por pantalla el doble y el triple de un número ingresado por teclado.
+
+Algoritmo Doble_Triple
+	Escribir "Ingrese el número:"
+	Leer num
+	doble = num + num
+	triple = num + num + num
+	Escribir "El doble del número ingresado es:", doble
+	Escribir "El triple del número ingresado es:", triple
+FinAlgoritmo
