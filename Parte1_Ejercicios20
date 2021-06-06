@@ -54,3 +54,18 @@ Algoritmo Número_Siguiente
 	FinMientras	
 FinAlgoritmo
 
+Diseñar un algoritmo que genere un número aleatorio del 0 al 200, lo muestre y luego calcule y
+muestre el mismo número aumentado en un 30%. (función aleatorio(min, max) que retorna un número
+aleatorio entre el min y max).
+
+
+	Algoritmo Número_Aleatorio
+		Definir num*200
+		Escribir "El número aleatorio es:", num*200
+		resultado <- (num*200*0.30)
+		Si num*200 = resultado Entonces
+			Escribir "El número es:", resultado
+		SiNo
+			Escribir "EL número es distinto al anterior y es:", resultado
+		FinSi
+FinAlgoritmo
