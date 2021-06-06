@@ -41,3 +41,16 @@ Algoritmo Cuadrado_Cubo
 	Escribir "El cuadrardo del número ingresado es:", Cuadrado
 	Escribir "El cubo del número ingresado es:", Cubo
 FinAlgoritmo
+
+5. Diseñar un algoritmo que pida un número por teclado y luego imprima el número siguiente al
+ingresado.
+
+Algoritmo Número_Siguiente
+	Escribir "Ingrese número"
+	Leer num
+	Mientras num <> letra Hacer
+		resultado <- num + 1
+		Escribir "El número siguiente al ingresado es:" , +resultado
+	FinMientras	
+FinAlgoritmo
+
