@@ -234,3 +234,24 @@ Algoritmo Números_Descendentes
 		Escribir "El número mayor es:", num3
 	FinSi
 FinAlgoritmo
+
+17. Realice un algoritmo para mostrar un cartel que indique si un triángulo es «escaleno», «equilátero»
+o «isósceles» ingresando sus lados.
+
+Algoritmo Tipos_Triángulos
+	Escribir "Ingrese el primer lado"
+	Leer lado1
+	Escribir "Ingrese el segundo lado:"
+	Leer lado2
+	Escribir "Ingrese el tercer lado:"
+	Leer lado1
+	Si lado1 == lado2 == lado3 Entonces
+		Escribir "El triángulo es equilatero"
+	SiNo 
+		Si lado1 <> lado2 & lado2 <> lado3 Entonces
+			Escribir "Es un triángulo escaleno"
+		SiNo
+			Escribir "Es un triángulo isósceles"
+		FinSi
+	FinSi
+FinAlgoritmo
