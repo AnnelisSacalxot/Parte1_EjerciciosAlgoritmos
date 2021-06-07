@@ -84,3 +84,16 @@ Algoritmo Número_Aleatorio
 		Escribir "El número es distinto al anterior y es:", Resultado1 o Resultado2
 	FinSi
 FinAlgoritmo
+
+8. Diseñar un algoritmo que, dados tres números enteros, calcule e imprima el promedio entre ellos.
+
+Algoritmo Promedio
+	Escribir "Ingrese tres números:"
+	Leer num1, num2, num3
+	Si num1, num2, num3 <> numDecimal Entonces
+		promedio = (num1+num2+num3)/3
+		Escribir "El promedio de los tres números es:", promedio
+	SiNo
+		Escribir "Número inválido, no es un entero"
+	FinSi
+FinAlgoritmo
