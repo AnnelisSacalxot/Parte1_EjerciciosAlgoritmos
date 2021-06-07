@@ -115,3 +115,20 @@ Algoritmo Cambio_Palabras
 	FinSi
 FinAlgoritmo
 
+10. Diseñar un algoritmo que imprima el área y el perímetro de un rectángulo ingresando su base y
+altura.
+
+Algoritmo Área_Rectángulo
+	Escribir "Ingrese la base:"
+	Leer base
+	Escribir "Ingrese la altura:"
+	Leer altura
+	Si base, altura <> letra Entonces
+		area <- base* altura
+		Escribir "El área es:", area
+	SiNo
+		Escribir "Número inválido"
+	FinSi
+FinAlgoritmo
+
+
