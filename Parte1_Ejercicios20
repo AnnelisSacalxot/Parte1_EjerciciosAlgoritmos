@@ -150,3 +150,17 @@ Algoritmo Conversión
 		Escribir "Número inválido"
 	FinSi
 FinAlgoritmo
+
+12. Diseñar un algoritmo que convierta y muestre la temperatura en Fahrenheit ingresando la
+temperatura en Celsius.
+
+Algoritmo Temperatura
+	Escribir "Ingrese la temperatura que desea convertir de Celsiud a Fahrenheit:"
+	Leer grados
+	Si grados<> letra Entonces
+		F <- n(grados*9/5) + 32
+		Escribir "La temperatura de Celsius a grados Fahrenheit es:", F
+	SiNo
+		Escribir "Número inválido"
+	FinSi
+FinAlgoritmo
