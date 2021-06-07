@@ -131,4 +131,22 @@ Algoritmo Área_Rectángulo
 	FinSi
 FinAlgoritmo
 
+11. Crear un algoritmo que convierta y muestre un valor ingresado en centímetros a yardas, metros,
+pies y pulgadas.
 
+Algoritmo Conversión
+	Escribir "Ingrese el número al que desea hacer conversión, recuerde que esta en cm (centímetros):"
+	Leer num
+	Si num <> letra Entonces
+		yarda <- num*0.0109361
+		metro <- num*0.01
+		pie <- num*0.0328084
+		pulgada <- num* 0.393701
+		Escribir "La conversión a yardas es:", yarda
+		Escribir "La conversión a metros es:", metro
+		Escribir "La conversión a pies es:", pies
+		Escribir "La conversión a pulgadas es:", pulgada
+	SiNo
+		Escribir "Número inválido"
+	FinSi
+FinAlgoritmo
