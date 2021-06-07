@@ -164,3 +164,20 @@ Algoritmo Temperatura
 		Escribir "Número inválido"
 	FinSi
 FinAlgoritmo
+
+13. Diseñar un algoritmo que calcule el volumen de un cilindro dados su radio y altura (primero el
+programa deberá verificar si son positivas).
+
+Algoritmo Volumen_Cilindro
+	Definir pi <- 3.1416
+	Escribir "Ingrese el radio:"
+	Leer radio
+	Escribir "Ingrese la altura:"
+	Leer altura
+	Si radio, altura mayor que 0 Entonces
+		Volumen <- pi*h*r elvado al cuadrado
+		Escribir "El volumen del cilindro es:", Volumen
+	SiNo
+		Escribir "Algún número es negativo o ambos, respuesta:", Volumen
+	FinSi
+FinAlgoritmo
