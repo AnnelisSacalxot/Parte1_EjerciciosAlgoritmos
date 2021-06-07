@@ -91,9 +91,27 @@ Algoritmo Promedio
 	Escribir "Ingrese tres números:"
 	Leer num1, num2, num3
 	Si num1, num2, num3 <> numDecimal Entonces
-		promedio = (num1+num2+num3)/3
+		promedio <- (num1+num2+num3)/3
 		Escribir "El promedio de los tres números es:", promedio
 	SiNo
 		Escribir "Número inválido, no es un entero"
 	FinSi
 FinAlgoritmo
+
+9. Diseñe un algoritmo para ingresar dos palabras (A, B) y luego realice el intercambio de sus valores.
+Finalmente mostrar el contenido de A y de B.
+
+Algoritmo Cambio_Palabras
+	Escribir "Ingrese la primera palabra"
+	Leer A
+	Escribir "Escriba la segunda palabra:"
+	Leer B
+	Si A, B <> num Entonces
+		Resp1 <- B
+		Resp2 <- A
+		Escribir "Las palabras invertidas, quedan como: la primera palabra es", Resp1, "y la segunda es", Resp2
+	SiNo
+		Escribir "Número inválido, no es un entero"
+	FinSi
+FinAlgoritmo
+
