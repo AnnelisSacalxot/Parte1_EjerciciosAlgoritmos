@@ -255,3 +255,31 @@ Algoritmo Tipos_Triángulos
 		FinSi
 	FinSi
 FinAlgoritmo
+
+18. Crear un algoritmo que muestre cada uno de los dígitos de un número ingresado por el usuario. El
+máximo permitido es de 4 dígitos. Al final debe mostrar la suma de los dígitos. Por ejemplo: si se
+ingresa el número 187, entonces debe mostrar en un único cartel lo siguiente: “d1 = 0, d2 = 1, d3 = 8
+y d4 =7. suma= 16”. (Utilice la función substr(string, inicio, cantidad) básicamente recibe un string,
+seleccionan la posición de inicio y la cantidad de caracteres a retornar, ejemplo substr("hola
+mundo",5,5) retornaría "mundo").
+
+Algoritmo Digítos
+	Escribir "Ingrese primer digíto:"
+	Leer d1
+	Escribir "Ingrese el segudo digíto:"
+	Leer d2
+	Escribir "Ingrese el tercer digíto:"
+	Leer d3
+	Escribir "Ingrese el cuarto digito:"
+	Leer d4
+	Si d1,d2,d3,d4 <> vacio Entonces
+		vacío <- 0
+	SiNo 
+		Si d1,d2,d3,d4 menor que d Entonces
+			Suma <- d1+d2+d3+d4
+			Escribir "La suma de los cuatro números es:", Suma
+		SiNo
+			Escribir "Excediste el número de entrada"
+		FinSi
+	FinSi
+FinAlgoritmo
