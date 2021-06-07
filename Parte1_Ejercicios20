@@ -195,3 +195,21 @@ Algoritmo Números_Divisibles
 		Escribir "Los números son divisibles"
 	FinMientras
 FinAlgoritmo
+
+15. Diseñar un algoritmo que indique con carteles si el número ingresado es negativo, positivo o nulo.
+
+Algoritmo Tipos_Números
+	Escribir "Ingrese el número"
+	Leer num
+	Escribir "Ingrese el denominador:"
+	Leer denominador
+	Si num = 0 Entonces
+		Escribir "El número es nulo", num
+	SiNo 
+		Si num mayor que 0 Entonces
+			Escribir "El número es positivo", num
+		SiNo
+			Escribir "El número es negativos:", num
+		FinSi
+	FinSi
+FinAlgoritmo
