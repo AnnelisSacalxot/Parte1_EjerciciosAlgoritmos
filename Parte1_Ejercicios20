@@ -213,3 +213,24 @@ Algoritmo Tipos_Números
 		FinSi
 	FinSi
 FinAlgoritmo
+
+16. Ingresar tres números y mostrar el mayor (asuma que todos son distintos entre sí).
+
+Algoritmo Números_Descendentes
+	Escribir "Ingrese el primer número"
+	Leer num1
+	Escribir "Ingrese el segundo número:"
+	Leer num2
+	Escribir "Ingrese el tercer número:"
+	Leer num3
+	Si num1 mayor que num2 Entonces
+		num <- num1
+	SiNo 
+		num <- num2
+	FinSi
+	Si num mayor que num3 Entonces
+		Escribir "El número mayor es:", num
+	SiNo
+		Escribir "El número mayor es:", num3
+	FinSi
+FinAlgoritmo
