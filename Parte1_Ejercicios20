@@ -54,7 +54,7 @@ Algoritmo Número_Siguiente
 	FinMientras	
 FinAlgoritmo
 
-Diseñar un algoritmo que genere un número aleatorio del 0 al 200, lo muestre y luego calcule y
+6. Diseñar un algoritmo que genere un número aleatorio del 0 al 200, lo muestre y luego calcule y
 muestre el mismo número aumentado en un 30%. (función aleatorio(min, max) que retorna un número
 aleatorio entre el min y max).
 
@@ -68,4 +68,19 @@ aleatorio entre el min y max).
 		SiNo
 			Escribir "EL número es distinto al anterior y es:", resultado
 		FinSi
+FinAlgoritmo
+
+7. Diseñar un algoritmo que genere un número aleatorio del 10 al 50, lo muestre y luego calcule y
+muestre el mismo número disminuido en un 15%.
+
+Algoritmo Número_Aleatorio
+	Definir num1 <- num1*0.50, num2 <- num2*1
+	Escribir "El número aleatorio es:", num2 o num1
+	Resultado1 <- (num1*200)/0.15
+	Resultado2 <- (num2*200)/0.15
+	Si num1 = Resultado1 o num2 = Resultado2 Entonces
+		Escribir "El número es:", Resultado1 o Resultado2
+	SiNo
+		Escribir "El número es distinto al anterior y es:", Resultado1 o Resultado2
+	FinSi
 FinAlgoritmo
