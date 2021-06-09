@@ -1,5 +1,3 @@
-
-*.class;
 import java.util.*;
 
 public class Ejercicio1 {
