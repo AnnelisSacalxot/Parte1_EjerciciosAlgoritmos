@@ -1,6 +1,6 @@
 import java.util.*;
 import java.util.Random;
- import java.lang.Math;
+import java.lang.Math;
 
 public class Ejercicio7 {
 
