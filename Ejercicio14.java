@@ -16,7 +16,6 @@ public class Ejercicio14 {
 //Hacemos la comparación si los números son positivos
 
 		resultado = numerador/denominador;
-		
 		while(denominador  > 0){
 			System.out.println("Los numeros son divisibles");
 		}
